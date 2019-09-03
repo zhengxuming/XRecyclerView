@@ -21,7 +21,7 @@ allprojects {
 //Step 2. Add the dependency
 
 dependencies {
-	implementation 'com.github.zhengxuming:XRecyclerView:Tag'
+	implementation 'com.github.zhengxuming:XRecyclerView:1.0'
 }
 ```
 just like a standard RecyclerView
