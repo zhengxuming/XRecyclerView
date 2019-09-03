@@ -2,10 +2,12 @@ package com.example.xrecyclerview;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.jcodecraeer.xrecyclerview.ProgressStyle;
 import com.jcodecraeer.xrecyclerview.StickyScrollLinearLayout;
@@ -75,7 +77,7 @@ public class LinearStickyScrollActivity extends AppCompatActivity {
     private void initXR(){
         mRecyclerView = (XRecyclerView) findViewById(R.id.XRecyclerView);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+        layoutManager.setOrientation(RecyclerView.VERTICAL);
         mRecyclerView.setLayoutManager(layoutManager);
 
         // i suggest you do not open pull refresh in StickyScroll
