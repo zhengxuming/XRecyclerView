@@ -12,17 +12,17 @@ Usage
 ```groovy
 //Add it in your root build.gradle at the end of repositories:
 
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 //Step 2. Add the dependency
 
-	dependencies {
-	        implementation 'com.github.zhengxuming:XRecyclerView:Tag'
-	}
+dependencies {
+	implementation 'com.github.zhengxuming:XRecyclerView:Tag'
+}
 ```
 just like a standard RecyclerView
 ```java
