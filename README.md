@@ -10,8 +10,19 @@ Usage
 -----
 ## gradle
 ```groovy
-// 1.5.9 is the main
-compile 'com.jcodecraeer:xrecyclerview:1.5.9'
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.zhengxuming:XRecyclerView:Tag'
+	}
 ```
 just like a standard RecyclerView
 ```java
