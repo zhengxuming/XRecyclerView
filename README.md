@@ -10,19 +10,8 @@ Usage
 -----
 ## gradle
 ```groovy
-//Add it in your root build.gradle at the end of repositories:
-
-allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
-}
-//Step 2. Add the dependency
-
-dependencies {
-	implementation 'com.github.zhengxuming:XRecyclerView:1.0'
-}
+// 1.6.0 is the main
+compile 'com.jcodecraeer:xrecyclerview:1.6.0'
 ```
 just like a standard RecyclerView
 ```java
